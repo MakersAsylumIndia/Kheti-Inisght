@@ -1,89 +1,65 @@
-# 📘 Welcome to the IS Project Documentation Template!
+🌱 Smart Soil Monitoring Robot
+Welcome to our Innovation School Project repository! We are a team of four students working on building a Smart Soil Monitoring Robot that helps measure and track key environmental factors for agriculture and research.
 
-Hey there! 👋
+🔍 Problem Statement
+Farmers and agricultural researchers often face challenges in manually monitoring soil conditions across large plots of land. Traditional methods are labor-intensive, inconsistent, and time-consuming, leading to inefficiencies in irrigation and crop management.
 
-This repository is your home for documenting your **Innovation School Project** and starting your **maker portfolio**.  
-You’ll be using the **GitHub Wiki** to update all your project details in a structured format.
+💡 Proposed Solution
+Our robot automates the process of measuring soil temperature, moisture, and humidity using onboard sensors and actuators. By integrating a DHT22 sensor, a capacitive soil moisture sensor, an ESP32 microcontroller, and a robotic chassis, we provide a mobile and scalable solution for real-time soil health analysis. This enhances decision-making for sustainable farming.
 
----
+🔩 Bill of Materials (BOM)
+Component	Quantity	Description
+ESP32 Development Board	1	Microcontroller with Wi-Fi and Bluetooth
+DHT22 Sensor	1	For measuring air temperature and humidity
+Capacitive Soil Moisture Sensor	1	For detecting moisture levels in soil
+DC Motors + Wheels	2	For robot mobility
+Motor Driver (L298N)	1	Controls motors via ESP32
+Chassis	1	Base platform to mount all components
+Power Supply / Battery Pack	1	For powering the ESP32 and motors
+Jumper Wires	Several	For electrical connections
+Breadboard	1	For prototyping
 
-## 🧠 What to Do First
+🌍 SDG Goals Associated
+Goal 2: Zero Hunger – Supports sustainable agriculture through precision farming.
 
-Start by writing a **brief introduction** to your project right here in this `README.md` file:
+Goal 9: Industry, Innovation and Infrastructure – Promotes innovation in agri-tech.
 
-🔹 What problem are you solving?  
-🔹 What’s your proposed solution?
+Goal 13: Climate Action – Enables data-driven environmental monitoring and response.
 
-Just 2–3 lines are enough. This helps others quickly understand what your project is about.
+🛠 Solution Overview
+The robot is built on a modular chassis and controlled via an ESP32 board. The sensors collect real-time data:
 
-Click on the ✏️ PENCIL icon next to the README title above, and you can edit the README directly from within your browser.
+The DHT22 captures ambient temperature and humidity.
 
----
+The capacitive soil moisture sensor reads soil moisture levels.
 
-## 🛠 Where to Document Everything Else
+This data is then processed by the ESP32 and can be transmitted or stored for later analysis. The actuators allow the robot to move to different soil patches, enabling wide-area environmental data collection.
 
-We’ve already created a standard set of [**Wiki pages**](https://github.com/MakersAsylumIndia/Bowl-Buddy/wiki) for your project in this repository — you just need to **update them with your project information**.
+🔌 Circuit & CAD Files
+Circuit Diagram: Available in the Media folder
 
-Each section is ready with headings like:
+Wiring Layout: Diagrams included for all components (ESP32 pin connections, sensor wiring, motor driver interface)
 
-- Project Title
-- Problem Statement
-- Bill of Materials (BOM)
-- Solution Overview
-- SDG Goals Associated
-- Circuit & CAD Files
-- Media Gallery
-- License
+🖼 Media Gallery
+Include photos and videos of your robot in action!
+📸 Media/Images folder
+🎥 Media/Videos folder
 
-Please **do not delete the headings** — just replace the placeholder content under each.
+📄 License
+Hardware
+Licensed under CERN Open Hardware License v2 - Strongly Reciprocal
+More Info
 
----
+Software
+Licensed under the MIT License
+MIT License Details
 
-## 📚 How to Edit the GitHub Wiki Pages
+Documentation
+This work is licensed under a Creative Commons Attribution 4.0 International License
 
-Follow these official GitHub help guides to learn how to edit your Wiki pages:
-
-🔗 [How to Add or Edit Wiki Pages](https://docs.github.com/en/communities/documenting-your-project-with-wikis/adding-or-editing-wiki-pages)  
-🔗 [How to Format and Save Content in Wikis](https://docs.github.com/en/communities/documenting-your-project-with-wikis/editing-wiki-content)
-
----
-
-## 📸 Visual Guide (Optional)
-
-If you’re unsure where the Wiki tab is:  
-📍 It’s on the top-right area of the repository (next to Code, Issues, Pull Requests).
-
-You’ll find your project listed there. Click on it, then click **“Edit”** to begin updating.
-
----
-
-## 🤝 Need Help?
-
-If you're confused at any step:
-- Ask your mentor or coordinator
-- Or drop a message in our Discord/WhatsApp support group
-
-Let’s build something awesome! 🚀
-
-## License
-
-Licenses
-
-<a href="LICENSE.md"><img src="Media\Images\Licenses_facts.svg" width="400" alt="Open Source Licenses Facts"/></a>
-
-#### Hardware
-CERN Open Hardware License Version 2 - Strongly Reciprocal ([CERN-OHL-S-2.0](https://spdx.org/licenses/CERN-OHL-S-2.0.html)).
-
-#### Software
-MIT open source [license](http://opensource.org/licenses/MIT).
-
-#### Documentation:
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-
----
-
-## 📬 Contact/Team
-
-> _List team members and contact emails or GitHub profiles._
-
----
+👥 Contact / Team
+Name	Role	Contact / GitHub
+[Vedant]	Hardware Integration	GitHub
+[Dev]	Code + ESP32 Dev	GitHub
+[Pranay]	CAD & Chassis Design	GitHub
+[Vedant]	Documentation Lead	GitHub
