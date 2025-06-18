@@ -1,7 +1,7 @@
-🌱 Smart Soil Monitoring Robot
+We are Team Kheti Insight!, 
 Welcome to our Innovation School Project repository! We are a team of four students working on building a Smart Soil Monitoring Robot that helps measure and track key environmental factors for agriculture and research.
 
-🔍 Problem Statement
+🔍 Problem Statement: 
 Farmers and agricultural researchers often face challenges in manually monitoring soil conditions across large plots of land. Traditional methods are labor-intensive, inconsistent, and time-consuming, leading to inefficiencies in irrigation and crop management.
 
 💡 Proposed Solution
